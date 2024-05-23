@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import lovetoair from "../../Assets/Projects/lovetoair.png";
+import pickleballho from "../../Assets/Projects/pickleballho.png";
 import ho from "../../Assets/Projects/ho.png";
 import tao from "../../Assets/Projects/tao.png";
 import bullsvsbears from "../../Assets/Projects/bullsvsbears.png";
@@ -19,6 +20,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pickleballho}
+              isBlog={false}
+              title="PickleBall Event Finder"
+              description="Full Stack Pickle-Ball Website built using MERN Stack and hosted on RENDER, Has 2 Logins User/Admin, Admin can create Events,RoundRobins,Tournaments and Users can View and join these events through Admin's Posted Links"
+              link="https://pbho-frotnend.onrender.com/"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lovetoair}
