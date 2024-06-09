@@ -8,6 +8,8 @@ import ho from "../../Assets/Projects/ho.png";
 import tao from "../../Assets/Projects/tao.png";
 import bullsvsbears from "../../Assets/Projects/bullsvsbears.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import casacu from "../../Assets/Projects/casacu.png";
+import switchstore from "../../Assets/Projects/switch.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,6 +22,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={casacu}
+              isBlog={false}
+              title="𝖼 𝖺 𝗌 𝖺 ∙ 𝖼 𝗎  𝖢𝗎𝗅𝗍𝗎𝗋𝖾 𝖬𝖾𝖾𝗍𝗌 𝖣𝖾𝗌𝗂𝗀𝗇A-CU"
+              description="Online Store for casa-cu on 923 Montana Avenue Santa Monica California 90403"
+              link="https://www.casa-cu.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={switchstore}
+              isBlog={false}
+              title="Wix Store for Merch"
+              description="Switch"
+              link="https://tizoccampos.wixsite.com/newweb/"
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
