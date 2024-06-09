@@ -11,9 +11,9 @@ function Github() {
       <GitHubCalendar
         username="rakshith22-glitch"
         blockSize={10}
-        blockMargin={5}
+        blockMargin={10}
         color="#c084f5"
-        fontSize={16}
+        fontSize={32}
       />
     </Row>
   );
