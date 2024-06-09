@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={casacu}
               isBlog={false}
-              title="𝖼 𝖺 𝗌 𝖺 ∙ 𝖼 𝗎  𝖢𝗎𝗅𝗍𝗎𝗋𝖾 𝖬𝖾𝖾𝗍𝗌 𝖣𝖾𝗌𝗂𝗀𝗇A-CU"
+              title="𝖼 𝖺 𝗌 𝖺 ∙ 𝖼 𝗎  𝖢𝗎𝗅𝗍𝗎𝗋𝖾 𝖬𝖾𝖾𝗍𝗌 𝖣𝖾𝗌𝗂𝗀n"
               description="Online Store for casa-cu on 923 Montana Avenue Santa Monica California 90403"
               link="https://www.casa-cu.com/"
             />
@@ -37,8 +37,9 @@ function Projects() {
             <ProjectCard
               imgPath={switchstore}
               isBlog={false}
-              title="Wix Store for Merch"
-              description="Switch"
+              title="Wix Store for Sports Merch"
+              description="Switch, is a parent company for WDRLL and 35and7Apparel. These are store take group merch orders 
+              for softball, tee ball, hats, game gear etc"
               link="https://tizoccampos.wixsite.com/newweb/"
             />
           </Col>
