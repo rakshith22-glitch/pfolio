@@ -10,20 +10,15 @@ import bullsvsbears from "../../Assets/Projects/bullsvsbears.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import casacu from "../../Assets/Projects/casacu.png";
 import switchstore from "../../Assets/Projects/switch.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+        <h2 className="project-heading">Shopify, Wix, and Square Space Apps</h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={casacu}
               isBlog={false}
@@ -44,28 +39,7 @@ function Projects() {
             />
           </Col>
 
-        <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pickleballho}
-              isBlog={false}
-              title="PickleBall Event Finder"
-              description="Full Stack Pickle-Ball Website built using MERN Stack and hosted on RENDER, Has 2 Logins User/Admin, Admin can create Events,RoundRobins,Tournaments and Users can View and join these events through Admin's Posted Links"
-              link="https://pbho-frotnend.onrender.com/"
-            />
-          </Col>
-
-
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={lovetoair}
-              isBlog={false}
-              title="LovetoAir"
-              description="A Review Website where buyers can air their grievances about their sellers. 1) CREATED DATABSE SCHEMA FROM SCRATCH USING MYSQL WORKBENCH 2)BACKEND-Node.js 3)FRONTEND-React "
-              link="https://lovetoair.com/"
-            />
-          </Col>
-
-           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ho}
               isBlog={false}
@@ -75,13 +49,37 @@ function Projects() {
             />
           </Col>
 
-         <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tao}
               isBlog={false}
               title="Ai For Social Good"
               description="This is a simple Shopify Merch Store for Crypto Currency $TAO, Built and modified existing free template and added credit, debit and crypto payment methods"
               link="https://taomerch.com/"
+            />
+          </Col>
+        </Row>
+
+        <h2 className="project-heading">Full Stack Apps</h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pickleballho}
+              isBlog={false}
+              title="PickleBall Event Finder"
+              description="Full Stack Pickle-Ball Website built using MERN Stack and hosted on RENDER, Has 2 Logins User/Admin,
+              Admin can create Events, RoundRobins, Tournaments and Users can View and join these events through Admin's Posted Links"
+              link="https://pbho-frotnend.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lovetoair}
+              isBlog={false}
+              title="LovetoAir"
+              description="A Review Website where buyers can air their grievances about their sellers. 1) CREATED DATABSE SCHEMA FROM SCRATCH USING MYSQL WORKBENCH 2)BACKEND-Node.js 3)FRONTEND-React "
+              link="https://lovetoair.com/"
             />
           </Col>
 
@@ -104,7 +102,6 @@ function Projects() {
               link="https://github.com/rakshith22-glitch/portfolio"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
