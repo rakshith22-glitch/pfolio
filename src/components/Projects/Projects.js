@@ -38,7 +38,7 @@ function Projects() {
               imgPath={switchstore}
               isBlog={false}
               title="Wix Store for Sports Merch"
-              description="Switch, is a parent company for WDRLL and 35and7Apparel. These are store take group merch orders 
+              description="Switch, is a parent company for WDRLL and 35and7Apparel. These stores take group merch orders 
               for softball, tee ball, hats, game gear etc"
               link="https://tizoccampos.wixsite.com/newweb/"
             />
